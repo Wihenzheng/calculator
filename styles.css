@@ -1,0 +1,53 @@
+table {
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    margin: 25% auto;
+    border: 5px solid green;
+    border-collapse: separate; 
+    border-spacing: 5px; 
+    font-size: large;
+    
+}
+
+th, td {
+    border: 1px solid red; 
+}
+
+th {
+    font-size: xx-large;  
+    text-align: right;   
+    vertical-align: center; 
+    padding: 0;           
+    height: 50px;
+ }
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+
+td:nth-child(1), td:nth-child(3) { 
+    width: 20%; 
+    padding: 8px;
+    height: 120px;
+}
+
+td:nth-child(2) { 
+    width: 35%; 
+    padding: 8px;
+    height: 120px;
+}
+
+td:nth-child(4){
+    width: 25%;
+    padding: 8px;
+    height: 120px;
+}
+
+
+
+tr {
+    height: 100px; 
+}
